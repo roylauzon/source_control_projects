@@ -4,7 +4,21 @@
       "GlobalData": {
         "ProjectName": "dev_1",
         "DBTypeName": "SQL Server",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "ProjectName": "dev_1",
+                "EnvType": "DEV",
+                "EnvironmentName": "Dev_Env_1",
+                "DatabaseAliasName": "sc_dev_1",
+                "DBTypeName": "SQL Server"
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "RepositoryDetails": {
           "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
@@ -22,7 +36,9 @@
             "UserName": "roylauzon76",
             "Password": "crU119BmB/BF8vB02XkYHmWtxoWZ6OIWjo24+91RRK9h9geY9RcW6Kd986mcrMZS"
           },
-          "ConnectionStrings": {}
+          "ConnectionStrings": {
+            "dev\\dev_env_1\\sc_dev_1": "Data Source=DOPX-ROY\\SQLEXPRESS;Initial Catalog=sc_dev_1;Integrated Security=False;User ID=sa;Password=123"
+          }
         }
       ]
     }
