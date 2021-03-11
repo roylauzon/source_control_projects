@@ -8,7 +8,7 @@
         "SourceControlPathType": 0,
         "RepositoryDetails": {
           "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-          "RemoteRepositoryDirectory": "https://github.com/roylauzon/source_control_projects.git",
+          "RemoteRepositoryDirectory": "https://github.com/roylauzon/source_control_data.git",
           "BranchName": "main"
         },
         "Configuration": {
