@@ -2,7 +2,7 @@
   "Projects": [
     {
       "GlobalData": {
-        "ProjectName": "",
+        "ProjectName": "source_control_data",
         "DBTypeName": "SQL Server",
         "Environments": null,
         "SourceControlPathType": 0,
